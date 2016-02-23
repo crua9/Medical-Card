@@ -1,16 +1,193 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.techreviewsandhelp.medicalcard.MainActivity">
+    <LinearLayout android:orientation="vertical" android:gravity="center" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#ff0000"
+        android:text="(You do not have permission to walk away with this device and/or go to any other screen on this device, unless if the owner of the device has clearly given permission. This message in red was made by the developer of the app.)"
+       android:textStyle="bold"
+        />
+
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
+        android:text="New Text"
+        android:textColor="#20ffec"
+        android:background="#20ffec" />
+
+    <ScrollView
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:padding="32dp"
+        android:layout_weight="8"
+        >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        >
+
+    <View
+        android:layout_height="6dp"
+        android:layout_width="8dp"
+        />
+
+    <TextView
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Hi, my name is (your name will show here)"
+        android:id="@+id/name"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textColor="#000000" />
+
+    <View
+        android:layout_height="2dp"
+        android:layout_width="8dp"
+        />
+
+    <TextView
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="I have following possible medical problems"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Your medical will show up here"
+        android:id="@+id/disabilities"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textColor="#000000" />
+
+    <View
+        android:layout_height="2dp"
+        android:layout_width="8dp"
+        />
+
+    <TextView
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="I have the following allergies"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Your allergies will show up here"
+        android:id="@+id/symphtoms"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textColor="#000000" />
+
+    <View
+        android:layout_height="2dp"
+        android:layout_width="8dp"
+        />
+
+        <TextView
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="My emergency contact name is"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Your emergency name"
+            android:id="@+id/emergencyname"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:textColor="#000000" />
+
+    <TextView
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="My emergency number is"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Your emergency contact number"
+        android:id="@+id/phonenumber"
+        android:textStyle="bold|normal"
+        android:textIsSelectable="false"
+        android:textColor="#000000" />
+
+
+
+        <!-- <View android:layout_width="18dp" android:layout_height="16dp"/> <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/facebook" /> <View android:layout_width="16dp" android:layout_height="4dp"/> <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/google" /> -->
+
+
+    <!-- <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="16sp" android:text="customize button background" /> <Button android:id="@+id/defaultButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="14sp" android:text="button" /> <View android:layout_width="8dp" android:layout_height="8dp"/> <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="16sp" android:text="FlatButton class extends Button" /> <com.naosim.flatbutton.FlatButton xmlns:naosim="http://naosim.com/naosim" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="14sp" android:text="button" naosim:style_color="#abd" /> -->
+
+
+</LinearLayout>
+
+</ScrollView>
+
+
+    -<LinearLayout
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_gravity="bottom"
+    >
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="#00FFFF"
+        android:text="TextView"
+        android:id="@+id/textView1"
+        android:background="#00FFFF"
+        />
+
+
+    -<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    >
+
+    <Button
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:text="Menu"
+        android:id="@+id/menubutton"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        />
+
+</LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
