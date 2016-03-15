@@ -6,9 +6,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Please put in the info below, and then click submit."
-        android:textColor="#000000"
-        />
+        android:text="Please put in the info below, and then click submit." />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -25,6 +23,7 @@
             android:orientation="horizontal"
             android:layout_width="fill_parent"
             android:layout_height="match_parent"
+            android:layout_gravity="right"
             android:gravity="right">
 
             <Button
@@ -39,7 +38,7 @@
 
     <TextView
         android:layout_width="fill_parent"
-        android:layout_height="8dp"
+        android:layout_height="wrap_content"
         android:text="New Text"
         android:textColor="#20ffec"
         android:background="#20ffec" />
@@ -57,47 +56,36 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Your name"
-                android:textColor="#000000" />
+                android:text="Your name" />
 
             <EditText
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
                 android:hint="Put your name in here"
                 android:ems="10"
-                android:id="@+id/ename"
-                android:textColor="#000000"
-                android:gravity="center" />
+                android:id="@+id/ename" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Put some possible medical stuff that may come up to cause you to use this app"
-                android:textColor="#000000"
-                />
+                android:text="Put some possible medical stuff that may come up to cause you to use this app"/>
 
             <EditText
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="Medical problems"
-                android:id="@+id/emedical"
-                android:textColor="#000000"
-                android:gravity="center" />
+                android:id="@+id/emedical" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="what are you allergic to"
-                android:textColor="#000000"
-                />
+                android:text="what are you allergic to"/>
 
             <EditText
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="Put in your allergies"
-                android:id="@+id/eallergies"
-                android:textColor="#000000"
-                android:gravity="center" />
+                android:id="@+id/eallergies" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -106,27 +94,22 @@
                 />
 
             <EditText
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="Put in your emergency contact name"
-                android:id="@+id/eemergency"
-                android:textColor="#000000"
-                android:gravity="center" />
+                android:id="@+id/eemergency" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="What is your emergency contact number"
-                android:textColor="#000000"
                 />
 
             <EditText
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="Put in your emergency contact number"
-                android:id="@+id/enumber"
-                android:textColor="#000000"
-                android:gravity="center" />
+                android:id="@+id/enumber" />
         </LinearLayout>
     </ScrollView>
 
