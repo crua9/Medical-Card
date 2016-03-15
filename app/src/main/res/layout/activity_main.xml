@@ -11,7 +11,7 @@
 
     <TextView
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="8dp"
         android:text="New Text"
         android:textColor="#20ffec"
         android:background="#20ffec" />
@@ -161,7 +161,7 @@
     >
 
     <TextView
-        android:layout_height="wrap_content"
+        android:layout_height="8dp"
         android:layout_width="match_parent"
         android:textColor="#00FFFF"
         android:text="TextView"
